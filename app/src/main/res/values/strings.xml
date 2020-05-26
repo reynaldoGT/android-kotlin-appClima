@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="grados">Grados°</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+
+    <string name="wellcome">Bienvendo a la app del clima,
+    para poder ver el clima clikea abajo :D</string>
+    <string name="texto_boton_lapaz">Clima de la ciudad de la paz</string>
+    <string name="texto_boton_berlin">Clima de la ciudad Berlin</string>
+    <string name="txt_el_alto">Clima de la ciudad De El Alto</string>
+    <string name="txt_argentina">Clima de la ciudad De Buenos Aires</string>
+</resources>

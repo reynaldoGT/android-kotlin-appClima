@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_ciudad"
+    android:orientation="vertical"
+    tools:context=".ciudades">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_margin="16dp"
+        android:text="@string/wellcome"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/btn_lp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/texto_boton_lapaz"
+        android:textColor="#593030" />
+
+    <Button
+        android:id="@+id/btn_berlin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/texto_boton_berlin"
+        android:textColor="#593030" />
+
+    <Button
+        android:id="@+id/btnEl_Alto"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/txt_el_alto"
+        android:textColor="#593030" />
+
+    <Button
+        android:id="@+id/btn_B_A"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:text="@string/txt_argentina"
+        android:textColor="#593030" />
+
+</LinearLayout>
